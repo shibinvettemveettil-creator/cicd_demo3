@@ -13,7 +13,7 @@ public class CicdDemo3Application {
         SpringApplication.run(CicdDemo3Application.class, args);
     }
 
-    @GetMapping("/welcome2")
+    @GetMapping("/welcome3")
     public String welcomeString() {
         return "Hello World!";
     }
